@@ -113,3 +113,30 @@ curl --location 'http://localhost:3000/upload' \
 --form 'file=@"/path/to/your/file.jpg"'
 ```
 _Note: Replace `/path/to/your/file.jpg` with the path to the file you want to upload._
+
+### Testing
+To run unit tests, use the following command:
+```bash
+npm test
+```
+
+## Stack:
+#### Node.js
+
+Node.js คือ Cross Platform Runtime Environment สำหรับฝั่ง Server ที่ทำงานด้วยภาษา javascript
+
+#### Express.js
+
+Express.js เป็น web framework สำหรับ Node.js
+
+#### Multer
+
+Multer เป็น middleware สำหรับการจัดการ multipart/form-data
+
+#### Nodemailer
+
+Nodemailer เป็น module สำหรับแอปพลิเคชัน Node.js ไว้ใช้ส่งอีเมล
+
+#### Ethereal
+
+Ethereal เป็นบริการทดสอบอีเมล ช่วยให้สามารถส่งอีเมลในระบบทดสอบได้โดยไม่ต้องส่งไปยังผู้รับจริง
